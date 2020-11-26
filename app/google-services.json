@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "832458747661",
+    "firebase_url": "https://moviestreaming-3840e.firebaseio.com",
+    "project_id": "moviestreaming-3840e",
+    "storage_bucket": "moviestreaming-3840e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832458747661:android:897cc6fd9ac3b7dbc48a44",
+        "android_client_info": {
+          "package_name": "com.example.videostreamingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832458747661-bvtci0ui9kfpeva5sr83282h1vrirlm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videostreamingapp",
+            "certificate_hash": "d0921b7d2e5a19b57c83a2d3503263ee68d149d3"
+          }
+        },
+        {
+          "client_id": "832458747661-ue1leh6ev333s418mnf5rjertasciegd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxKEzvUXjMXBsmwst4uqGtDFIJIUAtIHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832458747661-ue1leh6ev333s418mnf5rjertasciegd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

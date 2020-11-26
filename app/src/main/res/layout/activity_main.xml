@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="Choose Movies Category"
+            android:layout_marginBottom="5dp">
+
+        </TextView>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner">
+
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/uploads_video_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openVideoFiles"
+                android:text="upload Video">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/textvideoselected"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="No video selected">
+
+            </TextView>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter movie Descriptions"
+            android:layout_marginTop="10dp"
+            android:id="@+id/movies_description">
+
+        </EditText>
+
+        <Button
+            android:onClick="uploadFileToFirebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonUpload">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
